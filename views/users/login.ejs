@@ -1,5 +1,33 @@
 <% layout("layouts/boilerplate") %>
-<div class="row mt-3">
+
+<div class="login-container">
+<div class="login-card">
+    <!--Logo-->
+    <div class="card-logo"><i class="fa-regular fa-compass"></i></div>
+    <p class="login-title">Welcome, Please Login to Your Account</p>
+
+    <!--Form-->
+    <form method="POST" action="/login" class="needs-validation" novalidate>
+        <div class="login-form"> 
+            <input name="username" type="text"  placeholder="Username" required height="100%">
+        </div>
+        
+        <br>
+
+        <div class="login-form"> 
+            <input name="password" type="password"  placeholder="Password" required height="100%">
+        </div>
+
+        <br>
+
+        <button class="login-btn">Login</button>
+        <p class="login-footer">Don't have an account? <a href="/signup"> Signup here</a></p>
+    </form>
+</div>
+</div>
+
+<!--
+<<div class="row mt-3">
     <div class="col-6 offset-3">
         <h2>Login</h2>
         <br>
@@ -17,4 +45,4 @@
             <button class="btn btn-success">Login</button>
         </form>
     </div>
-</div>
+</div>-->

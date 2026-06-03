@@ -1,0 +1,89 @@
+/* Background */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.login-card {
+  width: 500px;
+  padding: 35px;
+  background: linear-gradient(-250deg, #240e0e, #830909);
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  text-align: center;
+}
+
+/* Logo */
+.card-logo {
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.card-logo i {
+    color: #ff385c;
+}
+
+.login-title {
+  font-size: 14px;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+
+  margin-top: 10px;
+  border: none;
+  border-radius: 30px;
+
+  background: linear-gradient(135deg, #ff385c, #ff1e3c);
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  transform: scale(1.03);
+}
+
+.login-social button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+.login-footer {
+  margin-top: 15px;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.login-footer a {
+  color: #ff385c;
+  text-decoration: none;
+}

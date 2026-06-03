@@ -23,12 +23,13 @@ body {
 
 .f-info {
     text-align: center;
-    height: 9rem;
+    height: 8rem;
     background-color: #ebebeb;
     display:flex;
     justify-content: center;
     align-items: space-evenly;
     flex-wrap: wrap;
+    width:100%;
 }
 
 
@@ -40,6 +41,7 @@ body {
 }
 
 .f-info-socials i {
+    vertical-align: middle;
     font-size: 1.2rem;
     margin-right:1rem;
 }

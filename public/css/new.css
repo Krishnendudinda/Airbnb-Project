@@ -1,0 +1,24 @@
+body {
+  background-color: #f7f7f7;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #222;
+}
+
+.form-container {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06), 0 1px 3px rgba(0,0,0,0.02);
+}
+
+.add-btn {
+  background-color: #ff385c;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  width: 100%;
+}
+.add-btn:hover { background-color: #e61e4d; }

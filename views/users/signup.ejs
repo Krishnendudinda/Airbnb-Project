@@ -1,4 +1,34 @@
 <% layout("layouts/boilerplate") %>
+
+<div class="login-container">
+<div class="login-card">
+    <!--Logo-->
+    <div class="card-logo"><i class="fa-regular fa-compass"></i></div>
+    <p class="login-title">Create Your Account to Hosting</p>
+
+    <!--Form-->
+    <form method="POST" action="/signup">
+        <div class="login-form"> 
+            <input name="username" type="text"  placeholder="Username" required height="100%">
+        </div>
+    
+        <div class="login-form"> 
+            <input name="email" type="email"  placeholder="Email" required height="100%">
+        </div>
+        
+        <div class="login-form"> 
+            <input name="password" type="password"  placeholder="Password" required height="100%">
+        </div>
+
+        <br>
+
+        <button class="login-btn">Signup</button>
+        <p class="login-footer">Have an account? <a href="/login"> Login here</a></p>
+    </form>
+</div>
+</div>
+
+<!--
 <div class="row mt-3">
     <div class="col-6 offset-3">
         <h2>Sign Up on Wanderlust</h2>
@@ -25,3 +55,4 @@
         </form>
     </div>
 </div>
+-->
