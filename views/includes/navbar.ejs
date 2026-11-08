@@ -31,14 +31,14 @@
 </style>
 <nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top navr">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/"><i class="fa-regular fa-compass"></i> StayHub</a>
+    <a class="navbar-brand" href="/listings"><i class="fa-regular fa-compass"></i> StayHub</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" >
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+      <!--<div class="navbar-nav">
         <a class="nav-link" href="/listings">Explore</a>
-      </div>
+      </div>-->
 
       <div class="navbar-nav ms-auto">
         <form class="d-flex" role="search" action="/listings/search/:searchId" method="GET">
@@ -63,7 +63,7 @@
         <a class="nav-link login-link" href="/login"><b>Login</b></a>
         <% }  %>
         <% if(currUser) {%>
-        <a class="nav-link" href="/logout">Logout</a>
+        <a class="nav-link" href="/logout"><i class="fa-solid fa-arrow-right-from-bracket fa-lg" style="color:red"></i></a>
         <% }  %>
       </div>
     </div>

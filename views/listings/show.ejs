@@ -13,7 +13,7 @@
             <p class="card-text"><i>Owned by: <%= listing.owner.username %></i></p>
                 
                 <p class="card-text"><%= listing.description %></p>
-                <p class="card-text">&#8377; <%= listing.price?.toLocaleString("en-IN") %></p>
+                <p class="card-text"> <i class="fa-solid fa-tag" style="color: red"></i> <%= listing.price?.toLocaleString("en-IN") %></p> 
                 <p class="card-text"><%= listing.location %></p>
                 <p class="card-text"><%= listing.country %></p>
             </p>    
@@ -79,6 +79,27 @@
             <% } %>
         </div>
         <% } %>
+    </div>
+    <div class="row offset-3 mb-3">
+        <h4>What this place offers</h4>
+        <div class="col-3">
+            <ul>
+                <li style="margin-bottom: 12px"><i class="fa-solid fa-wifi"></i> Wifi</li>
+                <li style="margin-bottom: 12px"><i class="fa-solid fa-person-swimming"></i> Pool</li>
+                <li style="margin-bottom: 12px"><i class="fa-solid fa-bath"></i> Washing machine</li>
+                <li style="margin-bottom: 12px"><i class="fa-solid fa-fan"></i> Air conditioning</li>
+                <li style="margin-bottom: 12px; text-decoration: line-through"> Smoke alarm</li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <ul>
+                <li style="margin-bottom: 12px"><i class="fa-solid fa-kitchen-set"></i> Kitchen</li>
+                <li style="margin-bottom: 12px"><i class="fa-solid fa-car-rear"></i> Free on-street parking</li>
+                <li style="margin-bottom: 12px"><i class="fa-solid fa-tv"></i> TV</li>
+                <li style="margin-bottom: 12px"><i class="fa-solid fa-bottle-water"></i> drink-Water</li>
+                <li style="margin-bottom: 12px; text-decoration: line-through"> Carbon monoxide alarm</li>
+            </ul>
+        </div>
     </div>
     <div class="col-6 offset-3 mb-3">
         <h3>Where You'll be</h3>
